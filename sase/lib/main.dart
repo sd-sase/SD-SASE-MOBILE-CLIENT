@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'SD-SASE',
+      title: '零信任云原生安全SD-SASE',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: '云原生零信任网络安全服务平台SD-SASE'),
+      home: MyHomePage(title: '零信任云原生网络安全服务平台SD-SASE'),
     );
   }
 }
